@@ -1,11 +1,11 @@
 
 export const facultyData = [
   {
-    name: "Dr. Anjali Sharma",
-    specialization: "Agri Sciences",
-    experience: "4 years",
+    name: "Dr. Sugandh  Sharma",
+    specialization: "Beauty and Wellness",
+    experience: "1 years",
     qualification: "B.tech",
-    bio: "Expert in sustainable farming with 20+ research papers"
+    bio: "Expert in sustainable Beauty and Wellness"
   },
   {
     name: "Mr. Ravi Mehta",
@@ -15,14 +15,14 @@ export const facultyData = [
     bio: " engineer specializing in data science and cloud"
   },
   {
-    name: "Ms. Priya Nair",
+    name: "Ms. Nidhi  Nair",
     specialization: "Beauty and Wellness",
-    experience: "5 years",
-    qualification: "M.Sc.",
-    bio: "Senior lab instructor with expertise in clinical pathology"
+    experience: "1 years",
+    qualification: "M.sc.",
+    bio: "Senior Beauty and Wellness"
   },
   {
-    name: "Mr. Suresh Reddy",
+    name: "Mr. Brijmohan Reddy",
     specialization: "Govt. Exams",
     experience: "7 years",
     qualification: "M.A., JNU",

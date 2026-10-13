@@ -5,13 +5,37 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 const TopPerformers = () => {
-  const performers = [
-    { name: "Aarav Sharma", course: "IT", badge: "IT Batch 2024" },
-    { name: "Meena Reddy", placement: "Agri-Startup", course: "Agriculture", badge: "Agri Topper" },
-    { name: "Rohit Kumar", course: "Beauty and Wellness", badge: "Medical Sciences" },
-    { name: "Sneha Patel", course: "Medical Laboratory Technician (MLT)", badge: "Paramedical Science" },
-    { name: "Priya Singh", placement: "ICAR", course: "Agriculture", badge: "Research Scholar" }
-  ];
+
+const performers = [
+  {
+    name: "Aarav Sharma",
+    course: "IT",
+    badge: "IT Batch 2024",
+  },
+  {
+    name: "Meena Reddy",
+    placement: "Agri-Startup",
+    course: "Agriculture",
+    badge: "Agri Topper",
+  },
+  {
+    name: "Rohit Kumar",
+    course: "Beauty and Wellness",
+    badge: "Beauty & Wellness",
+  },
+  {
+    name: "Vikash Kumar",
+    course: "Government Exam Preparation",
+    badge: "Govt. Exam Aspirant",
+  },
+  {
+    name: "Priya Singh",
+    placement: "ICAR",
+    course: "Agriculture",
+    badge: "Research Scholar",
+  },
+];
+
 
   // Set up Intersection Observer for this component
   useEffect(() => {

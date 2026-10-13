@@ -17,22 +17,23 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-4">
+
               <a href="/">
-  <img
-    src={logo}
-    alt="Bright Education
-logo"
-    className="w-16 h-16 md:w-32 md:h-32 rounded-full object-cover"
-  />
-</a>
+                <img
+                  src={logo}
+                  alt="Bright Education logo"
+                  className="w-16 h-16 md:w-32 md:h-32 object-contain"
+                />
+              </a>
+
 
               <div className="flex flex-col justify-center">
-                <h1 className="text-white font-bold text-lg leading-tight">
+                <h1 className="text-white font-bold text-2xl md:text-3xl leading-tight">
                   Bright Education
                 </h1>
 
                 <p className="text-yellow-400 text-sm font-medium">
-                   
+
                 </p>
 
                 <a href="https://shaheedbhagatsinghhealthandeducation.com/">

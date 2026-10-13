@@ -8,16 +8,15 @@ const FounderSection = () => {
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <div className="reveal order-2 md:order-1">
           <div className="bg-spotify-dark rounded-spotify-card border border-spotify-border relative overflow-hidden shadow-spotify-medium">
-            <div className="relative w-full h-80 md:h-96">
+            <div className="relative w-full h-80 md:h-96 overflow-hidden">
               <img
                 src={founderImage}
-                alt="Founder - Rajan Kumar "
-                className="w-full h-full object-fill"
+                alt="Founder - Rajan Kumar"
+                className="absolute inset-0 w-full h-full object-cover object-top"
               />
-              {/* Overlay gradient for text readability */}
-              <div className="absolute inset-0 bg-gradient-to-t from-spotify-black/60 via-transparent to-transparent"></div>
-            </div>
 
+              <div className="absolute inset-0 bg-gradient-to-t from-spotify-black/60 via-transparent to-transparent pointer-events-none"></div>
+            </div>
           </div>
         </div>
         <div className="reveal order-1 md:order-2 space-y-6">

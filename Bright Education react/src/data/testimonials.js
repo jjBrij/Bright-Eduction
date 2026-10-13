@@ -1,39 +1,36 @@
-// data/testimonials.js
+
 export const testimonialsData = [
   {
     name: "Rahul Kumar",
     course: "IT - Advanced Diploma in Computer Science",
-    quote: "This institute changed my career trajectory",
+    quote: "The practical coding sessions and real-world projects helped me improve my programming skills and build confidence for a career in IT.",
     photo: "👨‍💻",
     stars: 5,
     year: "2025",
-   
   },
   {
     name: "Sunita Patel",
     course: "Agriculture - Diploma in Agriculture",
-    quote: "Learnt modern organic techniques and now I run my own successful agri-startup.",
+    quote: "I learned modern farming techniques, soil management, and sustainable agricultural practices that broadened my knowledge of agriculture.",
     photo: "👩‍🌾",
     stars: 5,
     year: "2024",
-    placement: "Agri-Startup Founder"
+    placement: "Agri-Startup Founder",
   },
   {
     name: "Amit Bhatt",
-    course: "Beauty and Wellness - Operation Theatre Technician ",
-    quote: "Excellent lab training and placement support. Cleared my MLT exam with top rank.",
-    photo: "🧑‍🔬",
+    course: "Government Exams - Competitive Exam Preparation",
+    quote: "The structured study materials, regular practice tests, and expert guidance helped me strengthen my concepts and prepare more confidently for competitive government exams.",
+    photo: "📚",
     stars: 5,
     year: "2025",
-  
   },
   {
     name: "Priya Singh",
-    course: "IT -Computer Teacher Training (CTT)",
-    quote: "The curriculum is industry-relevant and the projects helped me build a strong portfolio .",
-    photo: "👩‍💻",
+    course: "Beauty and Wellness - Professional Beauty Training",
+    quote: "The practical sessions helped me develop beauty, skincare, and client-care skills while building confidence to pursue a career in the beauty and wellness industry.",
+    photo: "💄",
     stars: 5,
     year: "2024",
-   
-  }
+  },
 ];
